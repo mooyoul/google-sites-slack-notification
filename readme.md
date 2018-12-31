@@ -14,7 +14,7 @@ This service also supports Service Account, including G Suite domain-wide author
 
 Currently this service only supports **[Classic Google Sites](https://gsuiteupdates.googleblog.com/2016/11/a-totally-rebuilt-google-sitesnow.html)**, since Google Sites Data API does not support [rebuilt Google Site](https://blog.google/products/g-suite/totally-rebuilt-sites-customer-tested/).
 
-See also: [https://developers.google.com/sites/](Google Developers - Google Sites API)   
+See also: [Google Developers - Google Sites API](https://developers.google.com/sites/)   
 
 ## Configuration
 
