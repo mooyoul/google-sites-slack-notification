@@ -8,7 +8,13 @@
 
 Receive Slack notification when Google Sites has updated.
 
-This service also supports Service Account with G Suite domain-wide authority delegation to access private site.
+This service also supports Service Account, including G Suite domain-wide authority delegation to access private site.
+
+## Limitation
+
+Currently this service only supports **[Classic Google Sites](https://gsuiteupdates.googleblog.com/2016/11/a-totally-rebuilt-google-sitesnow.html)**, since Google Sites Data API does not support [rebuilt Google Site](https://blog.google/products/g-suite/totally-rebuilt-sites-customer-tested/).
+
+See also: [https://developers.google.com/sites/](Google Developers - Google Sites API)   
 
 ## Configuration
 
