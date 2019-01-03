@@ -10,7 +10,7 @@ if (Config.store.type !== "dynamodb") {
   throw new Error("DynamoDB store is disabled in current configuration.");
 }
 
-if (Config.store.tableName) {
+if (!Config.store.tableName) {
   throw new Error("DynamoDB table name is missing in current configuration.");
 }
 
