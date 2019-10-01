@@ -41,6 +41,7 @@ export class FileStateStore extends StateStoreBase {
   private async load() {
     if (!this.cache) {
       try {
+        // tslint:disable-next-line
         const saved = await new Promise<string>((resolve, reject) => {
           readFile(this.filePath, { encoding: "utf8"}, (e, data) => {
             if (e) { return reject(e); }
@@ -70,6 +71,7 @@ export class FileStateStore extends StateStoreBase {
 
     this.locked = true;
 
+    // tslint:disable-next-line
     const flush = () => new Promise<void>((resolve, reject) => {
       writeFile(this.filePath, JSON.stringify(Array.from(this.cache!.entries())), (e) => {
         if (e) { return reject(e); }
