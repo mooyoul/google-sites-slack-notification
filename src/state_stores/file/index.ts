@@ -92,7 +92,7 @@ export class FileStateStore extends StateStoreBase {
 
   private resolvePath(path: string) {
     if (path === "~") { return HOME_PATH; }
-    if (path.slice(0, 2) === "~/") { return join(HOME_PATH, path.slice(2)) }
+    if (path.slice(0, 2) === "~/") { return join(HOME_PATH, path.slice(2)); }
     return resolve(path);
   }
 }
