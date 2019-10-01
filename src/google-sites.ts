@@ -1,4 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
+import { GaxiosOptions, GaxiosResponse } from "gaxios";
 import { JWT as GoogleJWTClient } from "google-auth-library";
 import { JSDOM } from "jsdom";
 import * as _ from "lodash";
@@ -115,7 +116,7 @@ export class GoogleSitesLegacy {
   private async request<T>(options: AxiosRequestConfig): Promise<AxiosResponse<T>> {
     if (this.jwtClient) {
       await this.jwtClient.authorize();
-      return await this.jwtClient.request<T>(options);
+      return (await this.jwtClient.request<T>(options as GaxiosOptions)) as AxiosResponse<T>;
     } else {
       return await axios(options);
     }
