@@ -1,12 +1,16 @@
 {
-  "name": "lambda-microservice-template",
+  "name": "google-sites-slack-notification",
   "version": "1.0.1",
-  "description": "Template for microservice using lambda / typescript / serverless",
+  "description": "Receive Slack notification when Google Sites has updated.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/balmbees/lambda-microservice-template.git"
+    "url": "https://github.com/mooyoul/google-sites-slack-notification.git"
   },
+  "bugs": {
+    "url": "https://github.com/mooyoul/google-sites-slack-notification/issues"
+  },
+  "homepage": "https://github.com/mooyoul/google-sites-slack-notification#readme",
   "scripts": {
     "start": "ts-node src/sync.ts",
     "build": "check-engine && rm -Rf dst && tsc && cd src && find . -name '*.json' -type f -exec cp {} ../dst/{} \\; && cd ..",
@@ -26,10 +30,10 @@
   },
   "engines": {
     "node": "^8.10.0",
-    "npm": ">= 5.6.0"
+    "npm": "^6.10.3"
   },
-  "author": "Kurt Lee",
-  "license": "ISC",
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/cheerio": "0.22.13",
     "@types/debug": "4.1.5",
