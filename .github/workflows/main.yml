@@ -1,0 +1,21 @@
+name: CI
+on: push
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    container: vingle/lambda-microservice-template:nodejs8.10
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v1
+      - name: Prepare
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+#      - name: Deploy
+#        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+#        run: npm run deploy:prod
+#        env:
+#          AWS_DEFAULT_REGION: us-east-1
+#          AWS_REGION: us-east-1
+#          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+#          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
