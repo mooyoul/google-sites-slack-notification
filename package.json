@@ -45,7 +45,7 @@
     "serverless": "2.43.1",
     "serverless-prune-plugin": "1.5.0",
     "tslint": "5.20.1",
-    "typescript": "4.2.4"
+    "typescript": "4.3.2"
   },
   "dependencies": {
     "axios": "^0.21.0",
