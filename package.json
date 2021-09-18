@@ -43,7 +43,7 @@
     "@vingle/tslint-preset": "1.0.1",
     "check-engine": "1.10.1",
     "serverless": "2.45.2",
-    "serverless-prune-plugin": "1.5.1",
+    "serverless-prune-plugin": "1.6.0",
     "tslint": "5.20.1",
     "typescript": "4.4.3"
   },
