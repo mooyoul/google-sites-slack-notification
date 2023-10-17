@@ -34,7 +34,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/cheerio": "0.22.32",
-    "@types/debug": "4.1.8",
+    "@types/debug": "4.1.9",
     "@types/html-to-text": "5.1.2",
     "@types/jsdom": "16.2.15",
     "@types/lodash": "4.14.197",
