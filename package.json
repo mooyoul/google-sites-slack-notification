@@ -36,7 +36,7 @@
     "@types/cheerio": "0.22.35",
     "@types/debug": "4.1.12",
     "@types/html-to-text": "5.1.2",
-    "@types/jsdom": "16.2.15",
+    "@types/jsdom": "27.0.0",
     "@types/lodash": "4.17.23",
     "@types/node": "8.10.66",
     "@vingle/serverless-tag-plugin": "1.1.3",
