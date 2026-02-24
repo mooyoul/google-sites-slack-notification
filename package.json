@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/cheerio": "0.22.35",
     "@types/debug": "4.1.12",
-    "@types/html-to-text": "5.1.2",
+    "@types/html-to-text": "9.0.4",
     "@types/jsdom": "16.2.15",
     "@types/lodash": "4.17.24",
     "@types/node": "8.10.66",
@@ -53,7 +53,7 @@
     "debug": "^4.1.1",
     "dynamo-types": "^2.7.1",
     "google-auth-library": "^6.0.0",
-    "html-to-text": "^6.0.0",
+    "html-to-text": "^9.0.0",
     "jsdom": "^16.0.0",
     "lodash": "^4.17.15"
   }
