@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/cheerio": "0.22.35",
     "@types/debug": "4.1.13",
-    "@types/html-to-text": "5.1.2",
+    "@types/html-to-text": "9.0.4",
     "@types/jsdom": "16.2.15",
     "@types/lodash": "4.17.24",
     "@types/node": "8.10.66",
